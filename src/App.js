@@ -19,7 +19,7 @@ function App() {
         const d = new Date()
         const date = d.toLocaleDateString()
         const time = d.toLocaleTimeString()
-        axiox.post('http://localhost:3000/reports', { id: id, startDate: startDate, endDate: endDate, excludedDates: excludedDates, numDays: numDays, leadCount: leadCount, drr: drr, date: date, time: time })
+        axiox.post('http://localhost:3000/data', { id: id, startDate: startDate, endDate: endDate, excludedDates: excludedDates, numDays: numDays, leadCount: leadCount, drr: drr, date: date, time: time })
             .then(res => {
                 setStartDate(new Date())
             })
