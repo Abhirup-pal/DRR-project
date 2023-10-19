@@ -1,0 +1,47 @@
+{
+  "reports": [
+    {
+      "id": 1,
+      "startDate": "2023-10-13",
+      "endDate": "2023-10-20",
+      "excludedDates": [
+        "2023-10-20",
+        "2023-10-13"
+      ],
+      "numDays": 6,
+      "leadCount": 6000,
+      "drl": "1000.000",
+      "date": "18/10/2023",
+      "time": "9:12:58 pm"
+    },
+    {
+      "id": 2,
+      "startDate": "2023-10-22",
+      "endDate": "2023-10-27",
+      "excludedDates": [
+        "2023-10-20",
+        "2023-10-13",
+        "2023-10-27"
+      ],
+      "numDays": 3,
+      "leadCount": 60000,
+      "drl": "20000.000",
+      "date": "18/10/2023",
+      "time": "9:13:19 pm"
+    },
+    {
+      "id": 3,
+      "startDate": "2023-10-01",
+      "endDate": "2023-10-02",
+      "excludedDates": [
+        "2023-10-01",
+        "2023-10-02"
+      ],
+      "numDays": 0,
+      "leadCount": 15,
+      "drl": "Infinity",
+      "date": "18/10/2023",
+      "time": "9:18:33 pm"
+    }
+  ]
+}
